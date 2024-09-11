@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/index.js" defer></script>
+    <title>Tienda Adidas</title>
+</head>
+
+<body>
+    <header class="header">
+        <i class="header__icon">
+            <img width="150" src="img/menu.png" alt="Icono Menu">
+        </i>
+        <img class="header__logo" width="150" src="img/Adidas_logo.png" alt="Logo Adidas">
+        <div class="header__icon cart-icon">
+            <img width="150" src="img/carrito.png" alt="Icono Carrito">
+            <span class="cart-badge">0</span> <!-- Badge para el carrito -->
+        </div>
+    </header>
+
+    <main>
+        <!-- Sección del Menú -->
+        <section class="menu hidden">
+            <div class="menu__header">
+                <h2 class="menu__title">Menú</h2>
+                <div class="close__icon close__menu">
+                    <img src="img/close.png" alt="Cerrar">
+                </div>
+            </div>
+            <div class="menu__options">
+                <p>Inicio</p>
+                <p>Novedades</p>
+                <p>Ofertas</p>
+                <p>Mi cuenta</p>
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <section class="banner">
+            <h2 class="banner__title">Productos Nuevos</h2>
+            <p class="banner__description">Conoce nuestros productos nuevos</p>
+        </section>
+
+        <!-- Productos -->
+        <section class="products">
+            <article class="products__item">
+                <img class="products__image" src="img/jersey-mex.jpg" alt="Jersey Mexico 2024">
+                <h3 class="products__name">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/chamarra.jpg" alt="chamarra">
+                <h3 class="products__name">Chamarra Adidas</h3>
+                <p class="products__price">$2,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/tennis.jpg" alt="Tennis LG2">
+                <h3 class="products__name">Adidas LG2</h3>
+                <p class="products__price">$2,300.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/jersey-mex.jpg" alt="Jersey Mexico 2024">
+                <h3 class="products__name">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/chamarra.jpg" alt="chamarra">
+                <h3 class="products__name">Chamarra Adidas</h3>
+                <p class="products__price">$2,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/tennis.jpg" alt="Tennis LG2">
+                <h3 class="products__name">Adidas LG2</h3>
+                <p class="products__price">$2,300.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/jersey-mex.jpg" alt="Jersey Mexico 2024">
+                <h3 class="products__name">Jersey México 2023</h3>
+                <p class="products__price">$1,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/chamarra.jpg" alt="chamarra">
+                <h3 class="products__name">Chamarra Adidas</h3>
+                <p class="products__price">$2,000.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+
+            <article class="products__item">
+                <img class="products__image" src="img/tennis.jpg" alt="Tennis LG2">
+                <h3 class="products__name">Adidas LG2</h3>
+                <p class="products__price">$2,300.00</p>
+                <button class="add-to-cart">Añadir al carrito</button>
+            </article>
+        </section>
+
+        <!-- Sección del Carrito -->
+        <section class="cart hidden">
+            <div class="cart__header">
+                <h2 class="cart__title">Carrito</h2>
+                <div class="close__icon close__cart">
+                    <img src="img/close.png" alt="Cerrar">
+                </div>
+            </div>
+            <div class="cart__items"></div> <!-- Contenedor para los productos añadidos -->
+        </section>
+    </main>
+</body>
+
+</html>
